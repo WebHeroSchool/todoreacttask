@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import * as nums from "./numbers.js";
+let salary = 300;
+let isThis = true;
+let count = 23;
 
 function App() {
   return (
@@ -16,6 +19,15 @@ function App() {
         }}
           >hello
         </p>
+        {count}
+        {45}
+        {count+45}
+        {isThis && " is true"}
+        {salary>300 ? " good" : " bad" }
+        {undefined} 
+        {null} 
+        {false}
+        {true}
         {console.log(nums.count * nums.length)}
         <a
           className="App-link"
